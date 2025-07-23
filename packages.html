@@ -7,6 +7,7 @@
     <title>Trip & Hotel Packages</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="./navLinks.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
     <style>
         /* currently mostly css written in style tag after html is used */
         :root {
@@ -402,27 +404,23 @@
                     <a href="index.html" class="nav__logo" data-aos="fade-right">Tourguide<span>.</span></a>
                 </div>
 
-                <ul class="navLinks" style="gap: 1.2rem; right: -50px;">
-                    <li class="link" id="View-link" data-aos=""><a href="mapa.html">View</a></li>
-                    <li class="link" id="LogIn-link" data-aos=""><a href="newLogin.html">Log In</a></li>
-                    <li class="link" data-aos=""><a href="index.html">Home</a></li>
-                    <li class="link" data-aos=""><a href="about.html">About</a></li>
-                    <li class="link dropdown" data-aos="">
-                        <a href="index.html#Services" class="dropdown">Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="index.html#Destinations">Destination</a></li>
-                            <li><a href="index.html#trip">Prices</a></li>
-                            <li><a href="index.html#ReviewGallery">Trip Gallery</a></li>
-                            <li><a href="index.html#tourist">Tourist Guide</a></li>
-                            <li><a href="index.html#hotel">Hotel & Resort</a></li>
-                        </ul>
-                    </li>
-                    <li class="link" data-aos=""><a href="./topdeals/topdeals.html">Top Deals</a></li>
-                    <li class="link" data-aos=""><a href="./packages.html">Packages</a></li>
-                    <li class="link" data-aos=""><a href="index.html#testimonial">Testimonial</a></li>
-                    <li class="link" data-aos=""><a href="feedback.html">Rate Us?</a></li>
-                    <li class="link" data-aos=""><a href="index.html#cnt-form">Contact Us</a></li>
-                </ul>
+                <ul class="navLinks">
+  <li class="link" id="View-link" data-aos=""><a href="mapa.html"><i class="fas fa-map-location-dot"></i> View</a></li>
+  <li class="link" id="LogIn-link" data-aos=""><a href="newLogin.html"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+  <li class="link" data-aos=""><a href="#Home"><i class="fas fa-home"></i> Home</a></li>
+  <li class="link" data-aos=""><a href="./about.html"><i class="fas fa-info-circle"></i> About</a></li>
+  <li class="link dropdown" data-aos="">
+    <a href="#Services" class="dropdown"><i class="fas fa-concierge-bell"></i> Services</a>
+    <ul class="dropdown-menu">
+      <li><a href="#Destinations"><i class="fas fa-location-dot"></i> Destination</a></li>
+      <li><a href="#trip"><i class="fas fa-tags"></i> Prices</a></li>
+      <li><a href="#ReviewGallery"><i class="fas fa-images"></i> Trip Gallery</a></li>
+      <li><a href="#tourist"><i class="fas fa-user-tie"></i> Tourist Guide</a></li>
+      <li><a href="#hotel"><i class="fas fa-hotel"></i> Hotel & Resort</a></li>
+    </ul>
+  </li>
+</ul>
+
 
                 <a href="newLogin.html" class="contact-btn" id="nav-login-btn"><button class="btn login" id="btn-style"
                         data-aos="fade-down">Login/SignUp</button></a>
